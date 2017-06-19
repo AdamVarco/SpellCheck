@@ -8,7 +8,7 @@ public class SpellCheck {
       ArrayList<String> stringArray = new ArrayList<>();
       ArrayList<String> stringArray2 = new ArrayList<String>();
      try{
-    String filename = new String("C:/Users/Adam/Desktop/SpellCheck/Test.txt");
+    String filename = new String("SpellCheck/Test.txt");
     Scanner scan = new Scanner(new File(filename));
     Scanner scan2 = new Scanner(System.in);
     Map<String, Integer> map = new TreeMap<String, Integer>();
